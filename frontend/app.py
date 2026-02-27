@@ -41,7 +41,7 @@ st.set_page_config(
 st.markdown(get_custom_css(), unsafe_allow_html=True)
 
 # Backend API URL
-API_URL = os.getenv("API_URL", "http://localhost:8000")
+API_URL = os.getenv("API_URL", "https://titanic-chat-agent-0log.onrender.com")
 
 
 # ===========================================
