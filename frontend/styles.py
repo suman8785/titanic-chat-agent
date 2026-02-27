@@ -55,6 +55,7 @@ CUSTOM_CSS = """
         font-size: 0.85rem;
         text-transform: uppercase;
         letter-spacing: 0.5px;
+        color: #000000 
     }
     
     .chat-message.user .role {
@@ -65,9 +66,18 @@ CUSTOM_CSS = """
         color: #388e3c;
     }
     
+    .chat-message {
+    color: #000000 !important;
+    }
     .chat-message .content {
         line-height: 1.6;
+        color: #000000 !important;
     }
+
+    .chat-message .role {
+    color: #000000 !important;
+    }
+
     
     /* Sidebar styling */
     .sidebar-section {
