@@ -1,0 +1,7 @@
+# This file intentionally left empty to ensure the data directory is tracked by Git.
+# The Titanic dataset is loaded dynamically from seaborn or a remote source,
+# but this directory can be used to store:
+# - Cached dataset files
+# - Custom datasets
+# - Exported analysis results
+# - Generated reports
